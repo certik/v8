@@ -1,0 +1,2 @@
+g++ -c -o shell.o shell.cc
+g++ -o shell shell.o -lv8

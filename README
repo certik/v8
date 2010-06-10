@@ -1,0 +1,13 @@
+On Ubuntu, install:
+
+apt-get install libv8-dev
+
+and then:
+
+./compile
+
+cd $HOME/usr/bin
+ln -s ~/repos/v8/shell js
+
+and then you can use "js" just like any other javascript interpreter (rhino,
+spidermonkey, ...).
